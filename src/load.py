@@ -1,5 +1,5 @@
 from config import db_params
-from transform import df
+from transform import transform_data
 import psycopg2
 
 try:
