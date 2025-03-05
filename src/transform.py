@@ -10,6 +10,3 @@ def transform_data():
             'sensacion_termica', 'clima', 'descripcion_clima',
             'temp_min', 'temp_max', 'velocidad_viento[m/s]']]
     return df
-
-
-cleaned_df = transform_data()
