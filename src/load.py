@@ -43,3 +43,4 @@ finally:
         cursor.close()
     if conn:
         conn.close()
+        print("Connection closed")
