@@ -24,6 +24,3 @@ def extract_data():
     }
     df = pd.DataFrame(data_dict, index=[0])
     return df
-
-
-df = extract_data()
