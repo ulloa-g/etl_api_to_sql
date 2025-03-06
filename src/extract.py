@@ -1,6 +1,6 @@
 import requests
 import pandas as pd
-from config import API_KEY
+from src.config import API_KEY
 
 LAT = -32.8894155
 LON = -68.8446177
