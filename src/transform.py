@@ -1,8 +1,4 @@
-from extract import extract_data
-
-
-def transform_data():
-    df = extract_data()
+def transform_data(df):
     df['fecha'] = df['fecha_hora'].dt.strftime('%d/%m/%Y')
     df['hora'] = df['fecha_hora'].dt.strftime('%H:%M')
     df = df.drop(columns=['fecha_hora'])
